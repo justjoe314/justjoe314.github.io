@@ -1,0 +1,14 @@
+body,html{
+	background-color:#CCCCCC;
+}
+h1{
+	color:#ff0000;
+	font-style:italic;
+	background-color:#cccccc;
+}
+table{
+	border:5px;
+}
+.middle{
+	text-align:center;
+}
