@@ -3,14 +3,13 @@ html{
 	margin: 5px;
 }
 body{
-	background-color:#c8c9a3;
-	background-image:url(../assets/img/sheild.jpg);
+	background-color:#c68d53;
 	
 }
 h1{
-	color:#ff0000;
+	color:#000000;
 	font-style:italic;
-	background-color:#cccccc;
+	background-color:#ffffb3;
 }
 table{
 	border:5px;
