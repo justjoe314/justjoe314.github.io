@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<title>Joe mckinley's githubpage page</title>	
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 		<link rel="stylesheet" type="text/css" href="page2.html">
 		<link rel="stylesheet" type="text/css" href="page3.html">
@@ -11,24 +11,41 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>	
-	<ul class="nav nav-tabs">
-		<li role="presentation" class="active"><a href="">Home</a></li>
-		<li role="presentation"><a href="page2.html">Immage Profile</a></li>
-		<li role="presentation"><a href="page3.html">Email</a></li>
-	</ul>
-	<img src="assets/img/working-back.jpg", alt="people working on there computers", style="width:100%; height:400px;">
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Git hub page</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="page2.html">Immage Profile</a></li>
+            <li><a href="page3.html">Email</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<img class="size4" src="assets/img/working-back.jpg" alt="people working on there computers">
 	
 		<h1 class="middle">joe mckinley</h1>
 		<br>
-		<center><img src="assets/img/that-stash.jpg" alt="glasses and a mustash" width="100px"></center>
-		<p class="middle"><small> 'Copyright 2015 Joe mckinley'</small></p>
+		<center><img class="size5" src="assets/img/that-stash.jpg" alt="glasses and a mustash"></center>
+		<p class="middle"><small> 'Copyright 2015 Joe mckinley &copy;'</small></p>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
 				
 				<h2 class="middle"> A little about me </h2>
 				<br>
-				<div class="middle">	<img  src="assets/img/sheild.jpg", alt="hiland sheild", style="width:100px; height:100px;"></div>
+				<center><img class="size2" src="assets/img/sheild.jpg", alt="highland sheild"></center>
 				<br>
 				<p> Alright im just a regular kind of guy. Im not really the kind to just talk about my self. I would rather prove my worht with actions. Geting things accomplished is more important then just talking about them.</p>
 				</div>
@@ -37,12 +54,14 @@
 				
 				<h3 class="middle"> Some things i like to do</h3>
 				<br>
-				<div class="middle"><img src="assets/img/restaurant-coffee-cup-cappuccino.jpg", alt="", style="width:100px; height:100px;"></div>
+				<center><img class="size2" src="assets/img/restaurant-coffee-cup-cappuccino.jpg", alt="cup of coffee"></center>
 				<br>
-				<p>So in my free time i tend to find my self reading about different space articles or any kind of tech that catches my intrest. I also enjoy gaming, anything from playing xbox to board games.  </p>
+				<p>So in my free time i tend to find my self reading about different space or history articles or any kind of tech that catches my intrest. I also enjoy gaming, playing xbox &amp; board games mostly.  </p>
 				</div>
 			</div>
 		</div>
-		<footer>Justjoe314.github.io</footer>
+		<footer><a href="https://github.com/justjoe314" target="_blank"> Justjoe314.github.io</a></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
 	</body>
 </html>
