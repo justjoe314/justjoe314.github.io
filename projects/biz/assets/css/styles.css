@@ -1,0 +1,40 @@
+html{
+	
+	margin: 0px;
+}
+body{
+	background-color:#c68d53;
+	
+}
+h1{
+	color:#000000;
+	font-style:italic;
+	background-color:#ffffb3;
+}
+table{
+	border:5px;
+}
+.middle{
+	text-align:center;
+}
+.size4{
+	width:100%; 
+	height:400px;
+}
+.size1{
+	width:100px;
+}
+.size2{
+	
+	width:100px; 
+	height:100px;
+}
+.size3{
+	width:100%;
+	height: 200px;
+	padding: 10px 10px;
+}
+.size5{
+	width:150px;
+	height: 200px;
+}
