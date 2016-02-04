@@ -32,10 +32,9 @@
 			</div><!--/.nav-collapse -->
 		  </div>
 		</nav>
-	
-	
 	<!--php email form-->
-	
+	<?php
+	include "sendEmail.php"; 
 		<form name="contactform" method="post" action="send_form_email.php">
 			 
 			<table width="450px">
@@ -133,7 +132,7 @@
 			</table>
 			 
 			</form>
-	
+	?>
 	</body>
 	
 </html>	

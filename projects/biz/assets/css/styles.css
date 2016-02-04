@@ -12,7 +12,7 @@ body{
 	margin-top: 60px;
 }
 .sizing1{
-	height:400px; 
+	height:300px; 
 	width:100%;
 }
 .sizing2{
@@ -37,24 +37,24 @@ body{
 }
 .textboxsize1{
 	text-align: center;
-	height: 200px;
+	height: 300px;
 }
 .textboxsize2{
 	text-align: center;
-	height: 100px;
+	height: 300px;
 }
 
 .colorbox1{
 	background-color: yellow;
-	height:200px;
+	height:300px;
 	width:100%;
 }
 .colorbox2{
 	background-color: gray;
-	height:200px;
+	height:300px;
 	width:100%;
 }
 .aboutspacing{
 	text-align:center;
-	height:150:
+	height:300px;
 }
