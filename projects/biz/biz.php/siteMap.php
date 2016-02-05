@@ -1,3 +1,10 @@
+<?php
+header('Location: file:///C:/Users/jmcki/OneDrive/Documents/GitHub/justjoe314.github.io/projects/biz/biz.html/index.html');
+header('Location: file:///C:/Users/jmcki/OneDrive/Documents/GitHub/justjoe314.github.io/projects/biz/biz.html/about.html');
+header('Location: file:///C:/Users/jmcki/OneDrive/Documents/GitHub/justjoe314.github.io/projects/biz/biz.html/products.html');
+header('Location: file:///C:/Users/jmcki/OneDrive/Documents/GitHub/justjoe314.github.io/projects/biz/biz.html/about.html');
+header('Location: file:///C:/Users/jmcki/OneDrive/Documents/GitHub/justjoe314.github.io/projects/biz/biz.html/siteMap.html');
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -10,7 +17,11 @@
 	</head>
 	
 	<body>
-	
+	home page <a href="file:///C:/Users/jmcki/OneDrive/Documents/GitHub/justjoe314.github.io/projects/biz/biz.html/index.html">
+	about page <a href="file:///C:/Users/jmcki/OneDrive/Documents/GitHub/justjoe314.github.io/projects/biz/biz.html/products.html">
+	products page<a href="file:///C:/Users/jmcki/OneDrive/Documents/GitHub/justjoe314.github.io/projects/biz/biz.html/about.html">
+	contacts page<a href="file:///C:/Users/jmcki/OneDrive/Documents/GitHub/justjoe314.github.io/projects/biz/biz.html/contact.html">
+	</body>
 	</body>
 	
 </html>	
