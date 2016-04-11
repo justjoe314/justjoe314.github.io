@@ -1,0 +1,5 @@
+var words = '{"blog" : ['+
+'{"title":"first", "week":"our first day we all introduced our selfs and got to know eachother"}, ' +
+'{"title":"second", "week": "we started to go more into html and css"}'+
+'{"title":"third" , "week": "this week we started to play with php"}'+
+']}';

@@ -16,6 +16,41 @@
 	padding: 0px;
 	background-attachment:fixed;
 }
+.ecom{
+	background: url('img/portfolio-inverted.png');
+	background-repeat: no-repeat;
+	padding: 0px;
+	background-attachment:fixed;
+}
+
+.top{
+	padding-top:10px;
+}
+
+.headingBox{
+	  border-radius: 30px ;
+    background: #2d4c5c;
+    padding: 0px; 
+   
+	border:3px solid black;
+}
+
+.imgBox{
+	border-radius: 30px ;
+    background: #67a8c8;
+    padding: 20px;
+	border:3px solid black;
+}
+.inBox {
+    border-radius: 30px ;
+    background: #67a8c8;
+    padding: 0px; 
+   
+	border:3px solid black;
+}
+.border{
+	border:3px solid black; background:#999999;
+}
 body{
 	background: #999999;
 	padding: 0px;
@@ -34,4 +69,7 @@ body{
 }
 .top{
 	padding-top:120px;
+}
+.right{
+	float:right; 
 }
